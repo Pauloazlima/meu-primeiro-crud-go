@@ -14,4 +14,6 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 	fmt.Println(os.Getenv("TEST"))
+
+	fmt.Println("teste")
 }
